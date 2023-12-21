@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group input[type="submit"] {
+    background-color: #E5A9A9;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #D66BA0;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.form-group input[type="submit"]:focus {
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+header {
+    background-color: #D66BA0;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+   
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+section {
+    padding: 30px;
+    
+}
+
+.blue-background{
+     background-color: #9DF7E5;
+}
+
+h2{
+    margin: 10px;
+    font-weight: bold;
+}
+
+h1{
+    margin: 10px;
+    font-weight: bold;
+}
+
+p{
+    margin: 10px;
+}
+
+img{
+    margin: 10px;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: #E5A9A9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+  }
+
+  .rectangle a {
+    color: black;
+    text-decoration: none;
+    line-height: 100px;
+  }
+
+  .course{
+    width:fit-content;
+  }
+
+  .rectangles{
+    display: grid;
+    flex-wrap: wrap;
+    gap: 24px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .rectangle:nth-child(-n+3){
+    height: 200px;
+  }
+
+.row{
+    border-radius: 16px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-left: auto;
+    gap: 24px;
+}
+
+.material{
+    display: flex;
+}
